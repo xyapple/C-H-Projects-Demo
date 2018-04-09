@@ -1,1 +1,47 @@
 /* Your custom styles */
+
+html,
+body .view {
+    height: 100%;
+}
+
+h1 {
+    color: #929fba
+}
+
+/* Half Page Carousel itself*/
+
+.carousel {
+    height: 50%;
+}
+
+.carouselImg {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: 100%;
+}
+
+/* Adjustment for mobile devices*/
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+/* Adding color to the Navbar on mobile */
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #929fba;
+    }
+}
