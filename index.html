@@ -19,9 +19,8 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar mb-4">
         <div class="container">
-
             <!-- Brand -->
             <a class="navbar-brand" href="#" target="_blank">
                 <strong>ChaveTech</strong>
@@ -34,7 +33,7 @@
             </button>
 
             <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
 
                 <!-- Left -->
                 <ul class="navbar-nav mr-auto">
@@ -55,14 +54,20 @@
                 </ul>
 
                 <!-- Right -->
-                <ul class="navbar-nav nav-flex-icons">
+                <form class="form-inline ml-auto">
+                    <div class="md-form mt-0">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                    <button href="#!" class="btn btn-outline-white rounded btn-md my-0 ml-sm-2" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav nav-flex-icons float-right">
                     <li class="nav-item">
-                        <a href="#" class="nav-link border border-light rounded" target="_blank">
+                        <a href="#" class="nav-link" target="_blank">
                             <i class="fa fa-user-plus"></i>注册
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link border border-light rounded" target="_blank">
+                        <a href="#" class="nav-link">
                             <i class="fa fa-sign-in"></i>登陆
                         </a>
                     </li>
@@ -71,6 +76,7 @@
             </div>
 
         </div>
+
     </nav>
     <!-- Navbar -->
     <!-- Full Page Intro -->
