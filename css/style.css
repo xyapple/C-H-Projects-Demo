@@ -1,47 +1,31 @@
 /* Your custom styles */
 
 html,
-body .view {
-    height: 100%;
+body,
+.view {
+    height: auto;
 }
 
-h1 {
-    color: #929fba
+/* Navbar animation */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Half Page Carousel itself*/
-
-.carousel {
-    height: 50%;
-}
-
-.carouselImg {
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.carousel .carousel-inner {
-    height: 100%;
-}
-
-.carousel .carousel-inner .carousel-item,
-.carousel .carousel-inner .active {
-    height: 100%;
-}
-
-/* Adjustment for mobile devices*/
-
-@media (max-width: 776px) {
-    .carousel {
-        height: 100%;
-    }
+.top-nav-collapse {
+    background-color: #1c2331;
 }
 
 /* Adding color to the Navbar on mobile */
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #929fba;
+        background-color: #1c2331;
     }
+}
+
+/* Footer color for sake of consistency with Navbar */
+
+.page-footer {
+    background-color: #1c2331;
 }
